@@ -7,7 +7,7 @@
   
   <body>
     <header>
-      <h1>Desgign &amp; Authoring for Interactive Media</h1>
+      <h1>Design &amp; Authoring for Interactive Media</h1>
     </header>
     <p class="tag-line">
       Welcome to CG221. Your weekly assignments will be posted here
