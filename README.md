@@ -12,7 +12,7 @@
     <ul>
       <li>
         <h2>Week 1 - February 1, 2017</h2>
-        <a href="Teresa_CG221/mfi1.html">My Favorite Internet</a>
+        <a href="mfi1.html">My Favorite Internet</a>
       </li>
       <li>
         <h2>Week 2 - February 8, 2017</h2>
