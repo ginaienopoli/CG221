@@ -1,0 +1,17 @@
+body {
+  font-size: 16px;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+img {
+  max-width:100%;
+}
+.gallery-item {
+  background: #000;
+  width: 300px;
+  height: auto;
+  display: inline-block;
+  margin: 1rem;
+}
