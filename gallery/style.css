@@ -10,7 +10,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 .container {
-  max-width: 800px;
+  max-width: 1200px;
   margin: auto;
 }
 img {
@@ -18,7 +18,7 @@ img {
 }
 .gallery-item {
   background: #DCDCDC;
-  width: 500px;
+  width: 400px;
   height: auto;
   display: inline-block;
   margin: 1rem;
