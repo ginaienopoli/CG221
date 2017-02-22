@@ -7,7 +7,7 @@ grey: #
 
 body {
   font-size: 16px;
-  font-family: 
+  font-family: 'Open Sans', sans-serif;
 }
 .container {
   max-width: 800px;
@@ -17,8 +17,8 @@ img {
   max-width:100%;
 }
 .gallery-item {
-  background: #000;
-  width: 300px;
+  background: #DCDCDC;
+  width: 500px;
   height: auto;
   display: inline-block;
   margin: 1rem;
