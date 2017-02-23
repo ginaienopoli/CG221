@@ -25,15 +25,25 @@ img {
   margin: 1rem;
 }
 
-@media only screen and (max-width: 1320px){
-    .gallery-item {
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
         width: 49.99999%;
         margin: 6px 0;
     }
 }
 
 @media only screen and (max-width: 500px){
-    .gallery-item {
+    .responsive {
         width: 100%;
     }
 }
