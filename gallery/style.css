@@ -19,7 +19,7 @@ img {
 }
 .gallery-item {
   background: #DCDCDC;
-  width: 21rem;
+  width: 400px;
   height: auto;
   display: inline-block;
   margin: 1rem;
