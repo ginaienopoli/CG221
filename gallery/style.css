@@ -24,11 +24,6 @@ img {
   display: inline-block;
   margin: 1rem;
 }
-
-* {
-    box-sizing: border-box;
-}
-
 .responsive {
     padding: 0 6px;
     float: left;
