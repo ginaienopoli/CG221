@@ -9,6 +9,7 @@ body {
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
+  background-color: #898989;
 }
 .container {
   max-width: 1500px;
