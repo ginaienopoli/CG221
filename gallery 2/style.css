@@ -1,0 +1,63 @@
+/* --- Colors --- */
+/*
+main color:
+light color: #
+grey: #
+*/
+
+body {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  background-color: #898989;
+}
+.container {
+  max-width: 1500px;
+  margin: auto;
+}
+.gallery-item:hover  {
+  -webkit-filter:blur(1px);
+            filter: blur(1px);
+            border-radius: 50%;
+
+            }
+
+.overlay {
+    transition: .3s all;
+  }
+
+
+img {
+  max-width:100%;
+}
+.gallery-item {
+  background: #DCDCDC;
+  width: 400px;
+  height: auto;
+  display: inline-block;
+  margin: 1rem;
+  border-radius: 15px;
+  cursor: pointer;
+  text-align: center;
+  transition-property: background, border-radius;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.responsive {
+    padding: 0px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
