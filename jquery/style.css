@@ -1,25 +1,62 @@
+
+img {
+  height:200px;
+  border-radius:5px;
+}
+
 div {
-    height:100px;
-    width:100px;
+
     border-radius:5px;
     display: inline-block;
-    text-align: center;
     vertical-align: middle;
     font-family: Verdana, Arial, Sans-Serif;
     margin-right:5px;
 }
 
 #red {
-    background-color:#FF0000;
-    color:#FFFFFF;
+  position:relative;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  height:auto;
+  margin-right:5px;
 }
 
 #blue {
-    background-color:blue;
-    color:#FFFFFF;
+  position:fixed;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  height:auto;
+  margin-right:5px;
+  right: 66%;
+  top: 27%;
 }
 
 #orange {
-    background-color:orange;
-    color:#FFFFFF;
+  position:fixed;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  height:auto;
+  margin-right:5px;
+  bottom: 10%;
+  left: 37%;
 }
+
+#dino {
+  position:fixed;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  margin-right:5px;
+  bottom:58%;
+  left: 57%;
+}
+
+#text {
+  position:absolute;
+  bottom:20%;
+  left:20%;
+  font-family: Verdana, Arial, Sans-Serif;
+  color:#FFFFFF;

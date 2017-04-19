@@ -1,6 +1,5 @@
 $(document).hover(function(){
-  alert("You made it!");
-  $('p').fadeOut(3000);
+  $('#dino').fadeOut(3000);
 });
 
 $(document).hover(function(){
