@@ -1,0 +1,23 @@
+.controlgroup-vertical {
+      width: 150px;
+      text-align: center;
+    }
+    .controlgroup-vertical{
+      text-align: center;
+    }
+    #car-type-button {
+      width: 120px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    p{
+      text-align: center;
+    }
+
+*{
+  background-color: #edcca1;
+  text-align: center;
+}
