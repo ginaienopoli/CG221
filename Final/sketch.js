@@ -27,13 +27,13 @@ function draw() {
   // image(king, mouseX-10, mouseY-10);
   //drawSprites();
 
-  // if (mouseIsPressed) {
+  if (mouseIsPressed) {
   //   image(kingopen, mouseX-10, mouseY-10);
-  //   cake.nextFrame();
+    cake.nextFrame();
   //
-  //      }
+       }
 }
 
-function mousePressed() {
-  cake.nextFrame();
-}
+// function mousePressed() {
+//   cake.nextFrame();
+// }
