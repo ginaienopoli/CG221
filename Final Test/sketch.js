@@ -29,4 +29,5 @@ function draw() {
           }
   return false;
        }
+  image(cake1, 500, 500, 200, 200);
 }
