@@ -23,6 +23,8 @@ function draw() {
 
   if (mouseIsPressed) {
     image(kingopen, mouseX-10, mouseY-10);
+  }
+  if (mouseIsPressed) {
     var d = dist(mouseX, mouseY, 500, 500);
   if (d < 100) {
     cake1 = true;
