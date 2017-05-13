@@ -27,6 +27,6 @@ function draw() {
     image(cake1, 500, 500, 200, 200);
     image(kingopen, mouseX-10, mouseY-10);
           }
-
+  return false;
        }
 }
