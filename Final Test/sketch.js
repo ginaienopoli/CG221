@@ -33,4 +33,8 @@ function draw() {
     if (d < 100) {
     image(cake1, 500, 500, 200, 200);
     image(king, mouseX-10, mouseY-10);
+      
+      }
+  }
+  
 }
