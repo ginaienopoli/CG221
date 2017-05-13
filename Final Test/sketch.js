@@ -1,39 +1,32 @@
-var king, cake;
+var king, cake, cake1;
 
 function preload() {
-  // king = loadImage("king.svg");
-  // kingopen = loadImage("kingopen.svg");
+  king = loadImage("king.svg");
+  kingopen = loadImage("kingopen.svg");
   //animation must be in png format
-  //
-  cake = loadAnimation("cake.png", "cake1.png");
-  cake.playing = false;
+  
+  cake = loadImage("cake.png");
+  cake1 = loadImage("cake1.png");
 }
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-
-  // cake = createSprite(600, 600);
-  // cake.addAnimation("shrink", "cake.png", "cake1.png");
-  // cake.setCollider("circle", 0,0,64);
-  // cake.onMouseOver = function() {
-  // this.changeAnimation("shrink");
   }
 
 
 
 function draw() {
   background('#FFDC6B')//light yellow
-  animation(cake, 150, 150);
-  // image(king, mouseX-10, mouseY-10);
-  //drawSprites();
+  image(cake, 500, 500, 200, 200);
+  image(king, mouseX-10, mouseY-10);
+  
 
   if (mouseIsPressed) {
-  //   image(kingopen, mouseX-10, mouseY-10);
-    cake.nextFrame();
-  //
+    image(kingopen, mouseX-10, mouseY-10);
+    var d = dist(mouseX, mouseY, 500, 500);
+  if (d < 100) {
+    cake = false;
+    cake1 = true;
+
        }
 }
-
-// function mousePressed() {
-//   cake.nextFrame();
-// }
