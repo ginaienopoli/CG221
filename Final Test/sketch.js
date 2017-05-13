@@ -25,7 +25,6 @@ function draw() {
     image(kingopen, mouseX-10, mouseY-10);
     var d = dist(mouseX, mouseY, 500, 500);
   if (d < 100) {
-    cake = false;
     cake1 = true;
           }
 
