@@ -7,7 +7,7 @@ mainArr[0] = new Image();
 mainArr[0].src = "cake.png";
 
 mainArr[1] = new Image();
-mainArr[1].src = "cake.png";
+mainArr[1].src = "cake1.png";
 
 var myIndex = newIndex[imgArray];
 
