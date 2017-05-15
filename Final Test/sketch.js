@@ -12,6 +12,7 @@ mainArr[1].src = "cake1.png";
 function newIndex(arrLength) {
 	var randIndex = Math.floor(arrLength * Math.random());
 	return randIndex;
+}
 
 var myIndex = newIndex(imgArray.length);
 
