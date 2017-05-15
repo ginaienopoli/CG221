@@ -9,7 +9,7 @@ mainArr[0].src = "cake.png";
 mainArr[1] = new Image();
 mainArr[1].src = "cake1.png";
 
-var myIndex = newIndex[imgArray];
+var myIndex = newIndex(imgArray.length);
 
 function preload() {
   king = loadImage("king.svg");
@@ -21,7 +21,7 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  var myArray = imgArray (cake, cake1)
+ 
   }
 
 
@@ -35,7 +35,7 @@ function draw() {
   if (mouseIsPressed) {
     var d = dist(mouseX, mouseY, 500, 500);
   if (d < 100) {
-    myIndex = newIndex[imgArray];
+    myIndex = newIndex(imgArray.length);
     //image(cake1, 500, 500, 200, 200);
     image(kingopen, mouseX-10, mouseY-10);
           }
