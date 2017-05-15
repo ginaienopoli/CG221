@@ -1,12 +1,22 @@
 var king, cake, cake1;
 
+var mainArr = new Array;
+var imgArray = mainArr;
+
+mainArr[0] = new Image();
+mainArr[0].src = "cake.png";
+
+mainArr[1] = new Image();
+mainArr[1].src = "cake.png";
+
+var myIndex = newIndex[imgArray];
+
 function preload() {
   king = loadImage("king.svg");
   kingopen = loadImage("kingopen.svg");
-  //animation must be in png format
+  //cake = loadImage("cake.png");
+  //cake1 = loadImage("cake1.png");
   
-  cake = loadImage("cake.png");
-  cake1 = loadImage("cake1.png");
 }
 
 function setup() {
@@ -25,7 +35,7 @@ function draw() {
   if (mouseIsPressed) {
     var d = dist(mouseX, mouseY, 500, 500);
   if (d < 100) {
-    myArray = imgArray;
+    myIndex = newIndex[imgArray];
     //image(cake1, 500, 500, 200, 200);
     image(kingopen, mouseX-10, mouseY-10);
           }
