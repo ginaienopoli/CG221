@@ -11,6 +11,7 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  var myArray = imgArray (cake, cake1)
   }
 
 
@@ -24,7 +25,8 @@ function draw() {
   if (mouseIsPressed) {
     var d = dist(mouseX, mouseY, 500, 500);
   if (d < 100) {
-    image(cake1, 500, 500, 200, 200);
+    myArray = imgArray;
+    //image(cake1, 500, 500, 200, 200);
     image(kingopen, mouseX-10, mouseY-10);
           }
   return false;
